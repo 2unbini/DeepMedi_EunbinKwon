@@ -11,13 +11,13 @@
 		A87BD2372EA5EC43001D2DB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD2362EA5EC43001D2DB6 /* SceneDelegate.swift */; };
 		A87BD23E2EA5EC46001D2DB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87BD23D2EA5EC46001D2DB6 /* Assets.xcassets */; };
 		A87BD2412EA5EC46001D2DB6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A87BD2402EA5EC46001D2DB6 /* Base */; };
-		A87BD24B2EA5F208001D2DB6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A87BD24A2EA5F208001D2DB6 /* SnapKit */; };
 		A87BD24E2EA5F24B001D2DB6 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = A87BD24D2EA5F24B001D2DB6 /* RxCocoa */; };
 		A87BD2502EA5F24B001D2DB6 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A87BD24F2EA5F24B001D2DB6 /* RxSwift */; };
 		A87BD26A2EA5F29F001D2DB6 /* SlotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD2542EA5F29F001D2DB6 /* SlotKey.swift */; };
 		A87BD27B2EA66941001D2DB6 /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = A87BD27A2EA66941001D2DB6 /* Differentiator */; };
 		A87BD27D2EA66941001D2DB6 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = A87BD27C2EA66941001D2DB6 /* RxDataSources */; };
 		A87BD28E2EA89A9E001D2DB6 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD28D2EA89A9E001D2DB6 /* Filter.swift */; };
+		A8846A712EABC4AF0020BCA5 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A8846A702EABC4AF0020BCA5 /* SnapKit */; };
 		A8DB8E482EABA266009318AC /* MockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB8E472EABA266009318AC /* MockRepository.swift */; };
 		A8DB8E4A2EABA350009318AC /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB8E492EABA350009318AC /* DummyData.swift */; };
 		A8DB8E4C2EABA3E2009318AC /* MetricType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB8E4B2EABA3E2009318AC /* MetricType.swift */; };
@@ -84,7 +84,7 @@
 				A87BD2502EA5F24B001D2DB6 /* RxSwift in Frameworks */,
 				A87BD24E2EA5F24B001D2DB6 /* RxCocoa in Frameworks */,
 				A87BD27D2EA66941001D2DB6 /* RxDataSources in Frameworks */,
-				A87BD24B2EA5F208001D2DB6 /* SnapKit in Frameworks */,
+				A8846A712EABC4AF0020BCA5 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,11 +256,11 @@
 			);
 			name = DeepMediAssignmentApp;
 			packageProductDependencies = (
-				A87BD24A2EA5F208001D2DB6 /* SnapKit */,
 				A87BD24D2EA5F24B001D2DB6 /* RxCocoa */,
 				A87BD24F2EA5F24B001D2DB6 /* RxSwift */,
 				A87BD27A2EA66941001D2DB6 /* Differentiator */,
 				A87BD27C2EA66941001D2DB6 /* RxDataSources */,
+				A8846A702EABC4AF0020BCA5 /* SnapKit */,
 			);
 			productName = DeepMediAssignmentApp;
 			productReference = A87BD2312EA5EC43001D2DB6 /* DeepMediAssignmentApp.app */;
@@ -590,11 +590,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A87BD24A2EA5F208001D2DB6 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A87BD2492EA5F208001D2DB6 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
 		A87BD24D2EA5F24B001D2DB6 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A87BD24C2EA5F24B001D2DB6 /* XCRemoteSwiftPackageReference "RxSwift" */;
@@ -614,6 +609,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A87BD2792EA66941001D2DB6 /* XCRemoteSwiftPackageReference "RxDataSources" */;
 			productName = RxDataSources;
+		};
+		A8846A702EABC4AF0020BCA5 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A87BD2492EA5F208001D2DB6 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
