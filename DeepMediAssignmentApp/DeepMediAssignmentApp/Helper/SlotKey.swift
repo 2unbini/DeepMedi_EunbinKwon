@@ -7,7 +7,6 @@
 
 import Foundation
 
-/// 슬롯의 키. 타임스탬프로 찍힌 날짜와 시간.
 struct SlotKey: Hashable, Comparable {
     let date: Date
 

@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let winScene = (scene as? UIWindowScene) else { return }
 
         let repo = MockRepository(year: 2025, month: 10)
-        let vm = SlotsViewModel(repo: repo)
+        let vm = SlotsViewModel(repository: repo)
         let root = UINavigationController(rootViewController: SlotsViewController(viewModel: vm))
 
         let window = UIWindow(windowScene: winScene)
